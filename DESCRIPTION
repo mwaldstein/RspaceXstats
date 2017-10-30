@@ -13,5 +13,6 @@ Imports:
     httr
 Suggests:
     testthat,
-    httptest
+    httptest,
+    covr
 RoxygenNote: 6.0.1
