@@ -8,7 +8,7 @@ company_info()
 }
 \value{
 A list of useful information about SpaceX
-\describe {
+\describe{
   \item{name}{Company name}
   \item{founder}{Founder's name}
   \item{founded}{Year founded}

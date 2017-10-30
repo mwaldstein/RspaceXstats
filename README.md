@@ -3,6 +3,11 @@
 spaceXstats
 ===========
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/RspaceXstats)](https://cran.r-project.org/package=RspaceXstats) [![Travis-CI Build Status](https://travis-ci.org/mwaldstein/RspaceXstats.svg?branch=master)](https://travis-ci.org/mwaldstein/RspaceXstats) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/mwaldstein/RspaceXstats?branch=master&svg=true)](https://ci.appveyor.com/project/mwaldstein/RspaceXstats) [![codecov.io](https://codecov.io/github/mwaldstein/RspaceXstats/coverage.svg?branch=master)](https://codecov.io/github/mwaldstein/RspaceXstats?branch=master)
+
+-   Author/Maintainer: [Micah J Waldstein](https://micah.waldste.in)
+-   License: [MIT](https://opensource.org/licenses/MIT)
+
 The goal of spaceXstats is to ...
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:

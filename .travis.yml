@@ -1,0 +1,17 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+sudo: false
+cache: packages
+warnings_are_errors: true
+
+env:
+  - PACKAGE_VERSION="0.0.0.9000"
+
+os:
+  - linux
+  - osx
+
+after_success:
+    - Rscript -e 'covr::codecov()'
+    - make test-nocache

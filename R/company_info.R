@@ -3,7 +3,7 @@
 #' Provides general SpaceX company information
 #'
 #' @return A list of useful information about SpaceX
-#' \describe {
+#' \describe{
 #'   \item{name}{Company name}
 #'   \item{founder}{Founder's name}
 #'   \item{founded}{Year founded}
