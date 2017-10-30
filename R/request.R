@@ -1,4 +1,4 @@
-#' noRd
+#' @noRd
 request <- function (path, base = "https://api.spacexdata.com/v1/") {
   path <- sub("^/", "", path)
   url <- paste0(base, path)

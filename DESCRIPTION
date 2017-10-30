@@ -1,12 +1,17 @@
 Package: spaceXstats
 Version: 0.0.0.9000
-Title: What the Package Does (one line, title case)
-Description: What the package does (one paragraph).
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Title: SpaceXstats API
+Description: Provides access to the spaceXstats api and data repository,
+             maintained by /r/spacex.
+Authors@R: person("Micah", "Waldstein", email = "micah@waldste.in", role = c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
-Suggests: 
-    testthat
+Imports:
+    jsonlite,
+    httr
+Suggests:
+    testthat,
+    httptest
 RoxygenNote: 6.0.1
